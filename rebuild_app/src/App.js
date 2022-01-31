@@ -16,7 +16,7 @@ function App() {
       <Links />
       <Header />
       <Body />
-      <Footer />
+      <Footer />;
     </div>
   );
 }
