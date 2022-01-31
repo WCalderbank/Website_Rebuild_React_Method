@@ -6,7 +6,10 @@ function Body() {
     <>
       <div class="circle">
         <div class="dice" id="dice">
-          <img src={require("../images/20-sided-dice-icon-10 (1).jpg")} />
+          <img
+            src={require("../images/20-sided-dice-icon-10 (1).jpg")}
+            alt=""
+          />
         </div>
       </div>
 
