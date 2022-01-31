@@ -1,0 +1,18 @@
+.fact-button {
+  margin-top: 5%;
+  margin-left: 46%;
+  margin-right: 46%;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  background-color: lightgrey;
+  border: 2px solid;
+  border-radius: 15px;
+  color: black;
+  transition-duration: 0.4s;
+}
+
+.fact-button:hover {
+  background-color: firebrick;
+  color: lightgrey;
+}

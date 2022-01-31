@@ -1,10 +1,25 @@
 import React from "react";
+import "./Header.css";
 
 function Header() {
   return (
-    <div>
-      <h1> WELCOME TO MY SITE</h1>
-    </div>
+    <section class="header">
+      <nav>
+        <h1 id="title" class="h1">
+          LET THE ADVENTURE BEGIN!
+        </h1>
+        <div className="navigation-links" id="navigation-links">
+          <ul id="links">
+            <li>RACES</li>
+            <li>CLASSES</li>
+            <li>MONSTERS</li>
+            <li>INVENTORY</li>
+            <li>ADVENTURES</li>
+            <li>LOCATIONS</li>
+          </ul>
+        </div>
+      </nav>
+    </section>
   );
 }
 

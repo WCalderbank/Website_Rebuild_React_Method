@@ -1,9 +1,15 @@
 import React from "react";
+import "./Footer.css";
 
 function Footer() {
   return (
     <div>
-      <h3> Lets Get Started!</h3>
+      <button
+        onclick="classInfo(), adventureInfo(), alignmentInfo(), weaponInfo(), languageInfo(), wordShine()"
+        class="fact-button"
+      >
+        Why Don't We Find Out?
+      </button>
     </div>
   );
 }
