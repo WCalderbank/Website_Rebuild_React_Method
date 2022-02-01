@@ -1,5 +1,10 @@
 import React from "react";
+import Alignment from "./Alignment/Alignment";
 import "./Body.css";
+import Class from "./Class/Class";
+import Language from "./Language/Language";
+import Weapon from "./Weapon/Weapon";
+import Race from "./Race/Race";
 
 function Body() {
   return (
@@ -12,42 +17,12 @@ function Body() {
           />
         </div>
       </div>
-
       <div class="row">
-        <div class="info-col">
-          <h5 id="race">RACE</h5>
-          <p class="p1" id="p1">
-            ?
-          </p>
-        </div>
-
-        <div class="info-col">
-          <h5 id="alignment">ALIGNMENT</h5>
-          <p class="p2" id="p2">
-            ?
-          </p>
-        </div>
-
-        <div class="info-col">
-          <h5 id="role">CLASS</h5>
-          <p class="p3" id="p3">
-            ?
-          </p>
-        </div>
-
-        <div class="info-col">
-          <h5 id="weapon">FAVOURED WEAPON</h5>
-          <p class="p4" id="p4">
-            ?
-          </p>
-        </div>
-
-        <div class="info-col">
-          <h5 id="language">FAVOURED LANGUAGE</h5>
-          <p class="p5" id="p5">
-            ?
-          </p>
-        </div>
+        <Race />
+        <Alignment />
+        <Class />
+        <Weapon />
+        <Language />
       </div>
       <h2 id="fate">What Does FATE have in store for you?</h2>
     </>

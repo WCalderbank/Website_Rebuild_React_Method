@@ -25,12 +25,12 @@
 }
 
 .row {
-  margin-top: 15%;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-top: 17%;
+  margin-left: 3%;
+  margin-right: 3%;
   display: flex;
   justify-content: space-between;
-  gap: 20px;
+  gap: 25px;
 }
 
 .info-col {
