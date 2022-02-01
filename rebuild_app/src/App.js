@@ -5,6 +5,8 @@ import Footer from "./Components/Footer/Footer";
 import Body from "./Components/Body/Body";
 import Header from "./Components/Header/Header";
 
+import adventureInfo from "./Components/Body/Race/Race";
+
 function App() {
   return (
     <div
@@ -16,7 +18,7 @@ function App() {
       <Links />
       <Header />
       <Body />
-      <Footer />;
+      <Footer adventureInfo={adventureInfo} />;
     </div>
   );
 }
