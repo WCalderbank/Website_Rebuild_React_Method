@@ -7,6 +7,36 @@ import Weapon from "./Weapon/Weapon";
 import Race from "./Race/Race";
 import Button from "./Button/Button";
 
+/*let titleColor = document.querySelector("#title");
+let fateQuote = document.querySelector("#fate");
+let raceTitle = document.querySelector("#race");
+let classTitle = document.querySelector("#role");
+let alignmentTitle = document.querySelector("#alignment");
+let weaponTitle = document.querySelector("#weapon");
+let languageTitle = document.querySelector("#language");
+
+function redGlow() {
+  titleColor.style.color = "firebrick";
+  fateQuote.style.color = "firebrick";
+  raceTitle.style.color = "firebrick";
+  classTitle.style.color = "firebrick";
+  alignmentTitle.style.color = "firebrick";
+  weaponTitle.style.color = "firebrick";
+  languageTitle.style.color = "firebrick";
+}
+redGlow();
+
+function returnOriginal() {
+  titleColor.style.color = "lightgray";
+  fateQuote.style.color = "lightgray";
+  raceTitle.style.color = "black";
+  classTitle.style.color = "black";
+  alignmentTitle.style.color = "black";
+  weaponTitle.style.color = "black";
+  languageTitle.style.color = "black";
+}
+returnOriginal();*/
+
 function Body() {
   return (
     <>

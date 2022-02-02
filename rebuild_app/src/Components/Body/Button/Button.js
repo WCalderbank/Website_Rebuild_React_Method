@@ -1,15 +1,6 @@
 import React from "react";
 import "./Button.css";
 
-let colorChange = document.querySelector("#dice");
-let titleColor = document.querySelector("#title");
-let fateQuote = document.querySelector("#fate");
-let raceTitle = document.querySelector("#race");
-let classTitle = document.querySelector("#role");
-let alignmentTitle = document.querySelector("#alignment");
-let weaponTitle = document.querySelector("#weapon");
-let languageTitle = document.querySelector("#language");
-
 function handleClick() {
   async function alignmentInfo() {
     const response = await fetch("https://www.dnd5eapi.co/api/alignments");
@@ -63,30 +54,6 @@ function handleClick() {
     let p5 = document.querySelector("#p5");
     p5.innerHTML = `${data.results[num].name}`;
   }
-
-  function redGlow() {
-    titleColor.style.color = "firebrick";
-    fateQuote.style.color = "firebrick";
-    raceTitle.style.color = "firebrick";
-    classTitle.style.color = "firebrick";
-    alignmentTitle.style.color = "firebrick";
-    weaponTitle.style.color = "firebrick";
-    languageTitle.style.color = "firebrick";
-  }
-
-  colorChange.addEventListener("mouseenter", redGlow);
-
-  function returnOriginal() {
-    titleColor.style.color = "lightgray";
-    fateQuote.style.color = "lightgray";
-    raceTitle.style.color = "black";
-    classTitle.style.color = "black";
-    alignmentTitle.style.color = "black";
-    weaponTitle.style.color = "black";
-    languageTitle.style.color = "black";
-  }
-
-  colorChange.addEventListener("mouseleave", returnOriginal);
 
   function wordShine() {
     const randomColor = Math.floor(Math.random() * 16777215).toString(16);
