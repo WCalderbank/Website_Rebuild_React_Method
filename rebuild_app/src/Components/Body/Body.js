@@ -5,6 +5,7 @@ import Class from "./Class/Class";
 import Language from "./Language/Language";
 import Weapon from "./Weapon/Weapon";
 import Race from "./Race/Race";
+import Button from "./Button/Button";
 
 function Body() {
   return (
@@ -24,6 +25,7 @@ function Body() {
         <Weapon />
         <Language />
       </div>
+      <Button alignment={Alignment} />
       <h2 id="fate">What Does FATE have in store for you?</h2>
     </>
   );
