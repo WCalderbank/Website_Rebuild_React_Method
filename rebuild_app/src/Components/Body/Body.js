@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import Alignment from "./Alignment/Alignment";
 import "./Body.css";
 import Class from "./Class/Class";
@@ -7,11 +7,9 @@ import Weapon from "./Weapon/Weapon";
 import Race from "./Race/Race";
 import Button from "./Button/Button";
 
-function Body() {
-  const [cls, setCls] = useState("");
+function Body({ cls, setCls }) {
   return (
     <>
-      <style>{`.firebrick {color: firebrick}`}</style>
       <div
         class="circle"
         onMouseOver={() =>
