@@ -1,9 +1,11 @@
 import React from "react";
 
-function Alignment() {
+function Alignment({ cls }) {
   return (
     <div class="info-col">
-      <h5 id="alignment">ALIGNMENT</h5>
+      <h5 id="alignment" className={cls}>
+        ALIGNMENT
+      </h5>
       <p class="p2" id="p2">
         ?
       </p>

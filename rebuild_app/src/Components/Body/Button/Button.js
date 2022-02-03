@@ -70,12 +70,35 @@ function handleClick() {
     p5.style.color = `#${randomColor}`;
   }
 
+  let titleColor = document.querySelector("#title");
+  let fateQuote = document.querySelector("#fate");
+
+  let h5 = document.querySelector("#h5");
+
+  function redGlow() {
+    titleColor.innerHTML = "firebrick";
+    fateQuote.innerHTML = "firebrick";
+
+    h5.target.innerHTML.color = "firebrick";
+  }
+
+  /*function returnOriginal() {
+    titleColor.style.color = "lightgray";
+    fateQuote.style.color = "lightgray";
+    raceTitle.style.color = "black";
+    classTitle.style.color = "black";
+    alignmentTitle.style.color = "black";
+    weaponTitle.style.color = "black";
+    languageTitle.style.color = "black";
+  }*/
   classInfo();
   alignmentInfo();
   adventureInfo();
   weaponInfo();
   languageInfo();
   wordShine();
+  redGlow();
+  //returnOriginal();
 }
 
 function Button() {

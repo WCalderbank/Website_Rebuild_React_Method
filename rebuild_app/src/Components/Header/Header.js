@@ -5,7 +5,7 @@ function Header() {
   return (
     <section class="header">
       <nav>
-        <h1 id="h1" className="color-switch">
+        <h1 id="h1" className="fire-glow">
           LET THE ADVENTURE BEGIN!
         </h1>
         <div className="color-switch" id="navigation-links">
