@@ -63,11 +63,11 @@ function handleClick() {
     let p3 = document.querySelector("#p3");
     let p4 = document.querySelector("#p4");
     let p5 = document.querySelector("#p5");
-    p1.style.color = "#" + `${randomColor}`;
-    p2.style.color = "#" + `${randomColor}`;
-    p3.style.color = "#" + `${randomColor}`;
-    p4.style.color = "#" + `${randomColor}`;
-    p5.style.color = "#" + `${randomColor}`;
+    p1.style.color = `#${randomColor}`;
+    p2.style.color = `#${randomColor}`;
+    p3.style.color = `#${randomColor}`;
+    p4.style.color = `#${randomColor}`;
+    p5.style.color = `#${randomColor}`;
   }
 
   classInfo();

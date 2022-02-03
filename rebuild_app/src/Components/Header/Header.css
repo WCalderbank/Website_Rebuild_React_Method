@@ -5,13 +5,13 @@ nav {
   align-items: center;
 }
 
-.h1 {
+#h1 {
   color: lightgrey;
   text-decoration: none;
   font-size: 40px;
 }
 
-.h1::after {
+#h1::after {
   content: "";
   width: 0%;
   height: 3px;
@@ -20,29 +20,30 @@ nav {
   margin: auto;
   transition: 0.4s;
 }
-.h1:hover::after {
+
+#h1:hover::after {
   width: 100%;
 }
 
-.navigation-links {
+#navigation-links {
   flex: 1;
   text-align: right;
 }
 
-.navigation-links ul li {
+#navigation-links ul li {
   list-style: none;
   display: inline-block;
   padding: 10px 10px;
   position: relative;
 }
 
-.navigation-links ul li {
+#navigation-links ul li {
   color: lightgrey;
   text-decoration: none;
   font-size: 15px;
 }
 
-.navigation-links ul li::after {
+#navigation-links ul li::after {
   content: "";
   width: 0%;
   height: 3px;
@@ -51,6 +52,6 @@ nav {
   margin: auto;
   transition: 0.4s;
 }
-.navigation-links ul li:hover::after {
+#navigation-links ul li:hover::after {
   width: 100%;
 }

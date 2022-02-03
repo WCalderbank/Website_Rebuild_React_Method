@@ -1,3 +1,4 @@
+import React from "react";
 import "./App.css";
 import background from "./Components/images/Banner.webp";
 import Links from "./Components/Links/Links";

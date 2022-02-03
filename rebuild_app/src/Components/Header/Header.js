@@ -5,10 +5,10 @@ function Header() {
   return (
     <section class="header">
       <nav>
-        <h1 id="title" class="h1">
+        <h1 id="h1" className="color-switch">
           LET THE ADVENTURE BEGIN!
         </h1>
-        <div className="navigation-links" id="navigation-links">
+        <div className="color-switch" id="navigation-links">
           <ul id="links">
             <li>RACES</li>
             <li>CLASSES</li>
